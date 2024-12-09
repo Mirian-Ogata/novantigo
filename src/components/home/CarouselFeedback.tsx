@@ -14,7 +14,7 @@ export default function CarouselFeedback() {
       <CarouselContent>
         {avaliacoes.map((avaliacao, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="select-none overflow-auto rounded bg-white p-5">
+            <div className="select-none overflow-auto rounded bg-white p-6">
               <CardsCarrousel
                 nomeCliente={avaliacao.nomeCliente}
                 avaliacaoProduto={avaliacao.avaliacaoProduto}
