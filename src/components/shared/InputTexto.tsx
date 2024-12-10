@@ -1,5 +1,3 @@
-import ButtonPrincipal from "./ButtonPrincipal";
-
 interface InputTextoProps {
   placeholder: string;
 }
@@ -9,7 +7,7 @@ export default function InputTexto({ placeholder }: InputTextoProps) {
     <input
       type="text"
       placeholder={placeholder}
-      className="bg-lightGray flex flex-1 rounded p-2.5 text-base font-light"
+      className="flex flex-1 rounded bg-lightGray p-2.5 text-base font-light focus:border-orange"
     ></input>
   );
 }

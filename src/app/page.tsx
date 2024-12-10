@@ -1,14 +1,13 @@
-import ClientCarousel from "@/components/ClientCarousel";
-import Email from "@/components/Email";
-import CarouselFeedback from "@/components/home/CarouselFeedback";
-import ButtonPrincipal from "@/components/shared/ButtonPrincipal";
-import InputTexto from "@/components/shared/InputTexto";
+import ClientCarousel from "@/components/home/carousel";
+import BannerFeedback from "@/components/home/carousel/banner/BannerFeedback";
+import InscreverEmail from "@/components/home/email";
 
 export default function Home() {
   return (
     <div>
+      <BannerFeedback />
       <ClientCarousel />
-      <Email />
+      <InscreverEmail />
     </div>
   );
 }
