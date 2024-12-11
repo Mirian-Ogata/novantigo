@@ -12,7 +12,7 @@ export default function BannerFeedback() {
       <CarouselContent className="">
         {banners.map((banner, index) => (
           <CarouselItem key={index}>
-            <div className="h-80 w-full">
+            <div className="relative h-80 w-full">
               <Image
                 src={banner.imagem}
                 alt={banner.alt}
