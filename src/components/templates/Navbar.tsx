@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="grid-cols-3 bg-lightOrange px-6 py-6 shadow-md">
+    <header className="grid-cols-3 bg-lightOrange p-6 shadow-md">
       <div className="flex flex-1 flex-row items-center justify-between">
         <Link href="/" className="">
           <Image

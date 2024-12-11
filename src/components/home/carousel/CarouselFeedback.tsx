@@ -10,11 +10,11 @@ import CardsCarrousel from "./CardsCarousel";
 
 export default function CarouselFeedback() {
   return (
-    <Carousel opts={{ align: "center", loop: true }} className="w-[90%]">
+    <Carousel opts={{ align: "center", loop: true }} className="w-[80%]">
       <CarouselContent>
         {avaliacoes.map((avaliacao, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="scrollbar-none select-none overflow-auto rounded bg-white">
+            <div className="select-none overflow-auto rounded bg-white scrollbar-none">
               <CardsCarrousel
                 nomeCliente={avaliacao.nomeCliente}
                 avaliacaoProduto={avaliacao.avaliacaoProduto}

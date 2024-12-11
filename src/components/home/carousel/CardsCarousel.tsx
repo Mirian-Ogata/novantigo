@@ -10,16 +10,16 @@ export default function CardsCarousel({
   avaliacaoProduto,
 }: CardsProps) {
   return (
-    <div className="flex h-56 flex-1 flex-col items-start justify-start p-6 text-lg">
-      <h2 className="font-semibold text-acqua">{nomeCliente}</h2>
+    <div className="flex h-56 flex-1 flex-col items-start justify-start p-6">
+      <h2 className="text-lg font-semibold text-acqua">{nomeCliente}</h2>
       <Image
         src="./star.svg"
         alt="avaliação"
-        className="py-2"
+        className="py-1"
         width={100}
         height={100}
       />
-      <p className="pb-6 text-brown">{avaliacaoProduto}</p>
+      <p className="pb-6 text-base text-brown">{avaliacaoProduto}</p>
     </div>
   );
 }
