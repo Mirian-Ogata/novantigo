@@ -16,11 +16,24 @@ export default function Navbar() {
           />
         </Link>
         <div className="flex gap-10 text-base font-medium uppercase text-brown">
-          <Link href="/">início</Link>
-          <Link href="/vasos-e-cahepos">vasos & cachepôs</Link>
-          <Link href="/luminarias-e-lustres">luminárias & Lustres</Link>
-          <Link href="/brindes">Brindes</Link>
-          <Link href="/todos">Todos os Produtos</Link>
+          <Link className="hover:text-orange" href="/">
+            início
+          </Link>
+          <Link className="hover:text-orange" href="/vasos-e-cahepos">
+            vasos & cachepôs
+          </Link>
+          <Link className="hover:text-orange" href="/luminarias-e-lustres">
+            luminárias & Lustres
+          </Link>
+          <Link className="hover:text-orange" href="/decoracoes">
+            Decorações
+          </Link>
+          <Link className="hover:text-orange" href="/brindes">
+            Brindes
+          </Link>
+          <Link className="hover:text-orange" href="/todosOsProdutos">
+            Todos os Produtos
+          </Link>
         </div>
         <div className="flex flex-row items-center gap-4">
           <Icon

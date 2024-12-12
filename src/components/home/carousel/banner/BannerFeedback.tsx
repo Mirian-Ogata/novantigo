@@ -3,7 +3,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import banners from "@/constants/bannersPrincipal";
+import banners from "@/constants/bannerPrincipal";
 import Image from "next/image";
 
 export default function BannerFeedback() {
