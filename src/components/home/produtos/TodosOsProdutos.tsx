@@ -1,9 +1,9 @@
 import { allProdutos } from "@/constants";
-import Produtos from "../Produtos";
+import Produtos from "./Produtos";
 
-export default function todosOsProdutos() {
+export default function TodosOsProdutos() {
   return (
-    <div className="flex items-start justify-center gap-6">
+    <div className="w-[70%] grid-cols-4">
       {allProdutos.map((produto, index) => (
         <Produtos
           key={index}

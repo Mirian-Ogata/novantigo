@@ -1,4 +1,4 @@
-import Produtos from "./Produtos";
+import Produtos from "../produtos/Produtos";
 import filtrarPorTag from "@/functions/filtrarPorTag";
 
 export default function DataComemorativa() {
