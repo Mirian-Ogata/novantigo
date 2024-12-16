@@ -12,6 +12,7 @@ export default {
     extend: {
       colors: {
         white: "var(--white)",
+        snow: "var(--snow)",
         lightGray: "var(--light-gray)",
         gray: "var(--gray)",
         brown: "var(--brown)",

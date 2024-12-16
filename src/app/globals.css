@@ -4,6 +4,7 @@
 
 :root {
   --white: #ffffff;
+  --snow: #f4f1de;
   --light-gray: #f1f0f0;
   --gray: #8d8d8d;
   --orange: #ec5f29;
@@ -73,7 +74,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--white);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;

@@ -31,7 +31,7 @@ export default function Navbar() {
           <Link className="hover:text-orange" href="/brindes">
             Brindes
           </Link>
-          <Link className="hover:text-orange" href="/todosOsProdutos">
+          <Link className="hover:text-orange" href="/todos">
             Todos os Produtos
           </Link>
         </div>
